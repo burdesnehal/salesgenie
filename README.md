@@ -44,29 +44,37 @@ SalesGenie is an intelligent chatbot interface that transforms natural language 
 ```bash
 git clone https://github.com/yourusername/SalesGenie.git
 cd SalesGenie
+```
 
-🧪 Install Dependencies
+##🧪 Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-🔐 Setup Environment Variables
+##🔐 Setup Environment Variables
 Create a .env file:
+```bash
 GROQ_API_KEY=your_groq_api_key
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASS=yourpassword
 DB_NAME=salesgenie
+```
 
-🎮 Usage
+##🎮 Usage
 Run the chatbot with Streamlit:
+```bash
 streamlit run app.py
+```
 
-💡 Sample Interaction
-🔐 Login or Sign Up
-User logs in or signs up via the SalesGenie web app interface.
-👤 Login Page
+###💡 Sample Interaction
+##🔐 Login or Sign Up
+- User logs in or signs up via the SalesGenie web app interface.
 
-Users can securely log in using their username or email and password.
+##👤 Login Page
+
+- Users can securely log in using their username or email and password.
 
 🔒 Passwords are masked with the ability to toggle visibility.
 
@@ -75,15 +83,15 @@ Users can securely log in using their username or email and password.
 <img width="1917" height="858" alt="Screenshot 2025-07-13 150600" src="https://github.com/user-attachments/assets/203655e2-9833-47d4-995b-c98d88fc83e8" />
 
 
-📝 Sign Up Page
+##📝 Sign Up Page
 
-New users can create an account with:
+- New users can create an account with:
 
-Unique username
+    - Unique username
 
-Email
+    - Email
 
-Password (with confirmation)
+    - Password (with confirmation)
 
 📏 Passwords must be at least 8 characters long.
 
@@ -93,7 +101,7 @@ Password (with confirmation)
 
 
 
-🔗 Connect to Your MySQL Database
+##🔗 Connect to Your MySQL Database
 Prompted Fields:
 
 Host: localhost
@@ -110,7 +118,7 @@ Database: salesgenie
 <img width="1919" height="854" alt="Screenshot 2025-07-13 150829" src="https://github.com/user-attachments/assets/08889ec6-92c7-40e9-baaf-acf5d898582b" />
 
 
-🧠 SalesGenie AI Features
+## SalesGenie AI Features
 Reads the Database Schema
 
 Tables Detected: users, chat_logs, sales_data, products, orders, etc.
@@ -127,12 +135,12 @@ What is the monthly trend of total sales this year?
 
 What are the top-selling products in the last 30 days?
 
-🤖 User Asks in Natural Language:
+##🤖 User Asks in Natural Language:
 "What are the total sales by product category in the last quarter?"
 <img width="1919" height="848" alt="Screenshot 2025-07-13 151105" src="https://github.com/user-attachments/assets/1fd26042-0c85-4ac1-88be-e2fc54efd2be" />
 
 
-🧬 SalesGenie AI Flow:
+##🧬 SalesGenie AI Flow:
 Parses Natural Language Input using LLaMA3 via Groq API
 
 Generates SQL:
@@ -142,14 +150,14 @@ WHERE sale_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH)
 GROUP BY product_category;
 Executes Query on Connected MySQL DB
 
-📊 Displays Results
+##📊 Displays Results
 Tabular View:
 Product Category	Total Sales
 Electronics	₹1,25,000
 Apparel	₹85,000
 Home Appliances	₹95,500
 
-Graphical View (Bar Chart):
+##Graphical View (Bar Chart):
 🟦 Electronics
 🟩 Apparel
 🟨 Home Appliances
@@ -161,4 +169,4 @@ Graphical View (Bar Chart):
 
 ✅ Query Complete! Ask More Questions or Export Results.
 
-write a github code in froper format code readme file 
+
