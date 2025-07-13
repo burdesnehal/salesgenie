@@ -145,6 +145,7 @@ Generates 5 Smart Questions (Example):
 Parses Natural Language Input using LLaMA3 via Groq API
 
 Generates SQL:
+
 SELECT product_category, SUM(total_sales) AS total_sales
 FROM sales_data
 WHERE sale_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH)
@@ -164,7 +165,9 @@ Home Appliances	₹95,500
 🟩 Apparel
 🟨 Home Appliances
 (Bar heights represent total sales)
+
 <img width="1919" height="849" alt="Screenshot 2025-07-13 151448" src="https://github.com/user-attachments/assets/32b407fd-bf6a-4d01-b4b4-626d7cf87a73" />
+
 <img width="1919" height="856" alt="Screenshot 2025-07-13 151502" src="https://github.com/user-attachments/assets/bcf207fa-f7f4-4609-81df-ed5261aaa16e" />
 
 
