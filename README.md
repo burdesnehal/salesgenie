@@ -42,7 +42,7 @@ SalesGenie is an intelligent chatbot interface that transforms natural language 
 ### 📁 Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/SalesGenie.git
+git clone https://github.com/burdesnehal/salesgenie.git
 cd SalesGenie
 ```
 
